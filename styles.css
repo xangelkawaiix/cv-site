@@ -246,14 +246,14 @@ body {
 }
 
 .about h2, .projects h2, .skills h2, .experience h2, .interests h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
     color: var(--van-dyke);
 }
 
 .about .title-span {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .about p {
@@ -261,7 +261,7 @@ body {
 }
 
 .projects .title-span {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .projects .project-list {
@@ -318,7 +318,7 @@ body {
 }
 
 .skills .title-span {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .skills .subtitle-span {
@@ -347,7 +347,8 @@ body {
 .skills .progress-bar {
     background-color: var(--lavender-blush);
     border-radius: 5px;
-    height: 15px;
+    margin-top: 12px;
+    height: 10px;
     width: 60%;
     position: relative;
 }
@@ -362,7 +363,7 @@ body {
 }
 
 .experience .title-span {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .experience .subtitle-span {
@@ -393,7 +394,7 @@ body {
 }
 
 .interests .title-span {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .interests .subtitle-span {
@@ -502,8 +503,8 @@ footer {
     .hero .hero-info {
         background-color: var(--lavender-blush);
         padding: 20px;
-        border-radius: 0;
-        width: 100%;
+        border-radius: 10px; /* Add border-radius for card effect */
+        width: 80%; /* Adjust width for better fit */
         height: auto;
         display: flex;
         align-items: center;
@@ -511,6 +512,8 @@ footer {
         flex-direction: column;
         position: relative;
         z-index: 3;
+        margin: 0 auto; /* Center the card */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for card effect */
     }
 
     .hero .hero-info .info-block .download-cv {
@@ -522,26 +525,26 @@ footer {
     }
 
     .about h2, .projects h2, .skills h2, .experience h2, .interests h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
     }
 
     .about .title-span, .projects .title-span, .skills .title-span, .experience .title-span, .interests .title-span {
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: center;
     }
 
     .about, .projects, .skills, .experience, .interests {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: center;
     }
 
     .about p, .projects .project-item p, .skills .skill-item p, .experience .experience-item p, .interests .interest-item p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .skills .skill-item h3, .experience .experience-item h3, .interests .interest-item h3 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .footer-content {
