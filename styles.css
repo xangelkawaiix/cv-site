@@ -501,7 +501,7 @@ footer {
     }
 
     .hero .hero-info {
-        background-color: var(--lavender-blush);
+        background-color: var(--lavender-web);
         padding: 20px;
         border-radius: 10px; /* Add border-radius for card effect */
         width: 80%; /* Adjust width for better fit */
